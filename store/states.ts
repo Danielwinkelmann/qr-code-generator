@@ -1,0 +1,1 @@
+export const useDateInput = () => useState<string>('input_data', () => '')
