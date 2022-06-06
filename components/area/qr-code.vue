@@ -91,7 +91,7 @@ const upload = (evt: any) =>{
 }
 
 
-const { color, shape, cornerDotType, cornerSquareType, dotTypes, image, download } = useQrCode(canvas.value);
+const { color, shape, cornerDotType, cornerSquareType, dotTypes, image, download } = useQrCode();
 </script>
 
 <style></style>
